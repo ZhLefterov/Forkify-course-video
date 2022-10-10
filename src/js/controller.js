@@ -8,9 +8,9 @@ import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 
-import 'core-js/stable'; //polyfilling everything (без async await)
-import 'regenerator-runtime/runtime'; //polyfilling async await
-import { async } from 'regenerator-runtime';
+// import 'core-js/stable'; //polyfilling everything (без async await)
+// import 'regenerator-runtime/runtime'; //polyfilling async await
+// import { async } from 'regenerator-runtime';
 
 // if (module.hot) {
 //   module.hot.accept();
