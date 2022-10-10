@@ -12,9 +12,9 @@ import 'core-js/stable'; //polyfilling everything (без async await)
 import 'regenerator-runtime/runtime'; //polyfilling async await
 import { async } from 'regenerator-runtime';
 
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 const controlRecipes = async function () {
   try {
